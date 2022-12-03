@@ -1,0 +1,9 @@
+.bg-login {
+  background-image: url("https://www.crt4.com.br/banner.jpg");
+  height: calc(100vh);
+  & > .form-login {
+    border-radius: 20px;
+    background-color: white;
+    width: 450px;
+  }
+}
